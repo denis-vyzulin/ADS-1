@@ -48,7 +48,6 @@ uint64_t twinPrimes(uint64_t lbound, uint64_t hbound) {
       lbound++;
       continue;
     }
-    
     if (prev != 0 && lbound == prev + 2) cnt++;
     prev = lbound; lbound++;
   }
